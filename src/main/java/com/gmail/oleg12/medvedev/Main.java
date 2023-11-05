@@ -133,7 +133,6 @@ public class Main {
 
         // Логические операторы < > <= >= == !=
         int temperature = 20;
-        boolean wind = true;
 
         if (-10 <= temperature && temperature < 0) {
             System.out.println("The weather is ok, but cold");
