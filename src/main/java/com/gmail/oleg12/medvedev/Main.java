@@ -155,5 +155,11 @@ public class Main {
         } else {
             System.out.println("Let's go!");
         }
+
+        System.out.println("\nInt and double:");
+        System.out.println("Int - double: 231242 - 1.2d = " + (bInt - aDouble));
+        System.out.println("Int * double: 231242 * 1.2d = " + (bInt * aDouble));
+        System.out.println("Int / double: 231242 / 1.2d = " + (bInt / aDouble));
+        System.out.println("Int % double: 231242 % 1.2d = " + (bInt % aDouble));
     }
 }
