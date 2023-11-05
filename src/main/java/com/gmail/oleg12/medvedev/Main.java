@@ -111,7 +111,8 @@ public class Main {
         boolean bBoolean = true;
 
         System.out.println("\nboolean:");
-        System.out.println("boolean :" + aBoolean + bBoolean);
+        System.out.println("boolean: " + (bDouble>bFloat));
+        System.out.println("boolean: " + (bByte>bFloat));
 
         // Операторы
 
